@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link href = "style.css" rel = "stylesheet"></head>
+<body>
+<form action="PNP">
+       <table>
+              <tr>
+                     <td> Customer Id </td>
+                     <td><input type="text" name = "txtid"></td>     
+              </tr>
+              <tr>
+                     <td>CustomerName</td>
+                     <td><input type="text" name ="txtName"></td>
+              </tr>
+              <tr>
+                     <td>Customer Gender</td>
+                     <td>
+                           <input type="radio" name="radGender" value="1" checked> Male
+                           <input type="radio" name="radGender" value="2" checked> Female
+                     </td>
+              </tr>
+              <tr>
+                     <td> Customer emailId </td>
+                     <td><input type="text" name = "txtEmailid"></td>       
+              </tr>
+              <tr>
+              
+                     <td> Customer Phone </td>
+                     <td><input type="text" name = "txtPhn"></td>    
+              </tr>
+              <tr>
+                     <td> Customer Address </td>
+                     <td><input type="text" name = "txtAddress"></td>       
+              </tr>
+              <tr>
+                     <td> Customer DateOfJoining </td>
+                     <td><input type="date" name = "txtDate"></td>   
+              </tr>
+              <tr>
+                     <td> Customer Balance </td>
+                     <td><input type="text" name = "txtbalance"></td>       
+              </tr>
+             <tr>
+                     <td> Customer Rating </td>
+                     <td><select  name = "txtRating">  
+                           <option value = '0'>Poor</option>
+                           <option value = '1'>Average</option>
+                           <option value = '2'>Good</option>
+                           <option value = '3'>Best</option>
+                           </select>
+                           
+                           </td>
+              </tr>
+              <tr>
+              <td colspan="2">
+                     <textarea rows="10" cols="80" name="txtDesc"></textarea>
+                     </td>
+                     </tr>
+              <tr>
+                     <td colspan="2">
+                           <input type="checkbox" name="chkPrivileged" value="yes">Is Privileged ?
+                     </td>
+              </tr>
+              
+              <tr>
+              <td colspan="2">
+                     <input type = "submit" value = "SEND">
+              </td>
+              </tr>
+       </table>
+</form>
+</body>
+</html>

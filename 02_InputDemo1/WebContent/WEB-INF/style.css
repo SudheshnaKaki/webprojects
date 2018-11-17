@@ -1,0 +1,17 @@
+table{
+	border : solid;
+	background-color : green;
+	width : 8cm;
+	height : 5cm;
+	position : absolute;
+	left : 3cm;
+	top : 1cm;
+}
+tr{
+	height :8mm;
+	
+	input[type = 'text']
+	width :10cm;
+	height : 6cm;
+	background_color : green;
+}
